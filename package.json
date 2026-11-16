@@ -1,0 +1,17 @@
+{
+  "name": "pi-usage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local usage reports and provider quota view for Pi",
+  "type": "module",
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "scripts": {
+    "test": "bun test tests/*.test.ts"
+  }
+}
